@@ -42,7 +42,7 @@ You can have multiple items in the defaults list, e.g
 ```yaml
 defaults:
  - db: mysql
- - db/mysql/storage_engine: innodb
+ - db/mysql/engine: innodb
 ```
 
 The defaults are ordered:
